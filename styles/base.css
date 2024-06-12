@@ -80,6 +80,7 @@ li a:hover {
 h3 {
   text-align: center;
   text-decoration: underline;
+  padding: 2px;
 }
 
 .flag {
