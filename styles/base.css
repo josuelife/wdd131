@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: grey;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-self: center;
+  list-style-type: none;
+}
+
+nav a {
+  color: whitesmoke;
+  text-align: center;
+  flex: 1 1 100%;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(200, 200, 200);
+  text-decoration: underline;
+}
+
+main {
+  max-width: 825px;
+  display: grid;
+  border-radius: 0px;
+}
+h2 {
+  text-align: center;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 5px;
+}
+.card {
+  background-color: rgb(140, 140, 140);
+  border-radius: 5px;
+  border: 5px solid;
+}
+
+.about {
+  grid-column: 1 / 3;
+}
+
+img {
+  float: right;
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.resources {
+  grid-column: 3 /4;
+  list-style-type: circle;
+}
+
+li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer {
+  background-color: grey;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px;
+  text-align: center;
+}
