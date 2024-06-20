@@ -1,0 +1,79 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ham {
+	display: block;
+	font-weight:700;
+	text-decoration: none;
+  border-radius: 10px;
+	padding: .5rem .75rem;
+	background-color: grey;
+  display: block;
+}
+
+#ham::before {
+  content: "≡";
+  padding: 0.5rem;
+  color: white;
+  font-size: xx-large;
+}
+
+nav {
+  background-color: grey;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+  align-self: center;
+  list-style-type: none;  
+}
+
+nav a {
+  color: whitesmoke;
+  text-align: center;
+  flex: 1 1 100%;
+  text-decoration: none;
+  display: none;
+  text-align: left;
+  padding: 0.5rem;
+
+}
+
+nav a:hover {
+  color: rgb(200, 200, 200);
+  text-decoration: underline;
+}
+
+.show a {
+  display: block;
+
+}
+
+#ham.show::before {
+  content: "X";
+}
+
+main {
+  max-width: 1000px;
+  align-self: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+
+img {
+  max-width: 300px;
+}
+
+footer {
+  background-color: grey;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px;
+  text-align: center;
+}
