@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/place-large.css">
+  <script defer src="scripts/place.js"></script>
+  <title>Ecuador</title>
+</head>
+<body>
+  <Header>
+    <h1>Ecuador</h1>
+  </Header>
+
+  <main>
+    <picture>
+      <source srcset="images/cafecito.webp" media="(min-width: 800px)">
+      <img src="images/torti.webp" alt="Turtle Eating">
+    </picture>
+    <div class="data">
+      <h2>Data</h2>
+      <div class="container">
+        <div class="label">
+          <span>Area:</span>
+          <span>Population:</span>
+          <span>Capital:</span>
+          <span>Languages:</span>
+          <span>Currency:</span>
+          <span>Time Zone:</span>
+          <span>Callin Code:</span>
+          <span>Internet TLD:</span>
+        </div>
+        <div class="value">
+          <span>256,370 sq km</span>
+          <span>16,938,986</span>
+          <span>Quito</span>
+          <span>Espanol</span>
+          <span>USD Dollar</span>
+          <span>ECT (UTC-5)</span>
+          <span>+593</span>
+          <span>.ec</span>
+        </div>
+      </div>
+    </div>
+    <div class="weather">
+      <h2>Weather</h2>
+      <img class="sun" src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="Sunny" width="200" height="200">
+      <div class="container">
+        <div class="label">
+          <span>Temperature:</span>
+          <span>Conditions:</span>
+          <span>Wind:</span>
+          <span>Wind Chill:</span>
+        </div>
+        <div class="value">
+          <span id="temperature"></span>
+          <span>Sunny</span>
+          <span id="wind-speed"></span>
+          <span id="wind-chill"></span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>
+      &copy;<span id="currentYear"></span>
+      Josue Mora
+      Ecuador
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
