@@ -1,0 +1,28 @@
+@media only screen and (min-width: 750px) {
+	body {
+		max-width: 1050px;
+	}
+	nav {
+		display: flex;
+    padding: 1rem;
+	}
+	nav a {
+		display: block;
+		flex: 1 1 100%;
+	}
+	nav a {
+		text-align: center;
+	}
+  nav::before {
+    display: none;
+  }
+	
+  #ham {
+    display: none;
+  }
+
+	#cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
