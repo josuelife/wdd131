@@ -1,0 +1,29 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0 auto;
+  padding: 1rem;
+}
+h1,
+h2 {
+  background-color: #235789;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+p {
+  font-family: Itim;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+#blue {
+  background-color: #235789;
+}
+
+#white {
+  border: 1px black solid;
+}
+
+#roboto {
+  font-family: Roboto, sans-serif;
+}
