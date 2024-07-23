@@ -4,11 +4,11 @@ document.getElementById("currentYear").innerHTML = date.getFullYear();
 document.getElementById("lastModified").innerHTML = "Last updated: " + document.lastModified;
 
 
-const reviewsDisplay = document.querySelector("#review");
+const reviewsDisplay = document.getElementById("review");
 
-let numberReviews = Number(window.localStorage.getItem("numberReviews-ls")) || 0;
+let numberReviews = Number(window.localStorage.getItem("number")) || 0;
 
 reviewsDisplay.textContent = numberReviews;
 numberReviews++;
 
-localStorage.setItem("numberReviews-ls", numberReviews);
+localStorage.setItem("number", numberReviews);

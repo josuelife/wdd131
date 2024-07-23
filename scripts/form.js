@@ -32,8 +32,8 @@ const products = [
 ];
 
 products.forEach(product => {
-  let productHTML = document.createElement("option");
-  productHTML.setAttribute("value", `${product.name}`);
-  productHTML.innerHTML = product.name;
-  document.getElementById("productName").appendChild(productHTML);
+  let option = document.createElement("option");
+  option.setAttribute("value", `${product.name}`);
+  option.innerHTML = product.name;
+  document.getElementById("productName").appendChild(option);
 });
