@@ -6,7 +6,7 @@ document.getElementById("lastModified").innerHTML = "Last updated: " + document.
 
 const reviewsDisplay = document.getElementById("review");
 
-let numberReviews = Number(window.localStorage.getItem("number")) || 0;
+let numberReviews = Number(window.localStorage.getItem("number")) || 1;
 
 reviewsDisplay.textContent = numberReviews;
 numberReviews++;

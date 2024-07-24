@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Josue Mora">
+  <meta name="description" content="Product Review by Josue Mora for WDD131">
+  <link rel="stylesheet" href="styles/getmaterial.css">
+  <script src="scripts/getmaterial.js" defer></script>
+  
+  <title>Solve It - Get Material</title>
+</head>
+<body>
+  <header>
+    <h1>Get Material</h1>
+  </header>
+  <main>
+    <form method="get" action="thanks.html">
+
+      <div class="formField">
+        <label>Your Name: </label>
+        <input type="text" name="Name" id="name" placeholder="Erno Rubik" required>
+      </div>
+
+      <div class="formField">
+        <label>Your Email: </label>
+        <input type="text" name="email" id="email" placeholder="example@mail.com">
+      </div>
+
+      <div class="formField">
+        <label>Select Level</label>
+        <select name="productName" id="productName" required>
+          <option value="" disabled selected>Select Level</option>
+        </select>
+      </div>
+
+      <div class="checkbox">
+        <label>What puzzles?</label>
+        <br>
+        <input type="checkbox" id="feature1" name="feature1" value="">
+        <label for="feature1">Rubiks Cube - 3x3</label><br>
+
+        <input type="checkbox" id="feature2" name="feature2" value="">
+        <label for="feature2">Rubiks Revenge - 4x4</label><br>
+
+        <input type="checkbox" id="feature3" name="feature3" value="">
+        <label for="feature3">Pyraminx</label><br>
+        
+        <input type="checkbox" id="feature4" name="feature4" value="">
+        <label for="feature4">All Twisty Puzzles</label><br>
+    </div>
+
+      <div class="formField">
+        <label>Was "Solve It" Helpful?</label>
+        <div class="stars">
+          <input type="radio" id="fivestar" name="rating" value="5" required><label for="fivestar"></label>
+          <input type="radio" id="fourstar" name="rating" value="4" required><label for="fourstar"></label>
+          <input type="radio" id="threestar" name="rating" value="3" required><label for="threestar"></label>
+          <input type="radio" id="twostar" name="rating" value="2" required><label for="twostar"></label>
+          <input type="radio" id="onestar" name="rating" value="1" required><label for="onestar"></label>
+        </div>
+      </div>
+      <input type="submit" name="submit" id="submit" value="Get Material">
+    </form>
+    <br>
+    <div class="return"><a href="index.html">Return Home</a></div>
+   
+  </main>
+  <footer>
+    <p>
+      &copy;<span id="currentYear"></span>
+      Josue Mora
+      Ecuador
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+  
+</body>
+</html>

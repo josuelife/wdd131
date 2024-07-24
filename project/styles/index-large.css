@@ -1,0 +1,10 @@
+@media only screen and (min-width: 1000px) {
+  body {
+    max-width: none;
+    min-width: none;
+  }
+  #steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
